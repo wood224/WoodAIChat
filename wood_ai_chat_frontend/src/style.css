@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* 主色调 */
+    --primary-color: #4a90e2;
+    --primary-light: #60a5fa;
+    --primary-dark: #3a7bc8;
+
+    /* 辅助色 */
+    --secondary-color: #6b7280;
+    --secondary-light: #9ca3af;
+    --secondary-dark: #4b5563;
+
+    /* 中性色 */
+    --white: #ffffff;
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+    --black: #000000;
+
+    /* 状态色 */
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --error-color: #ef4444;
+
+    /* 背景色 */
+    --background-light: #f5f7fa;
+    --background-dark: #e4edf9;
+
+    /* 阴影 */
+    --shadow-light: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-heavy: 0 20px 40px rgba(0, 0, 0, 0.1);
+
+    /* 圆角 */
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+    --border-radius-large: 16px;
+}
+
+/* 移除默认样式 */
+ul, li {
+    list-style: none;
+}
+
+/* 覆盖 ElementPlus 的样式 */
+.el-dropdown-menu__item.logout:hover {
+    color: red !important;
+    background-color: rgba(255, 0, 0, 0.1) !important;
+}
+
+/* ElMessageBox warning 确认按钮*/
+.box-warning-delete-btn {
+    background-color: rgba(255, 59, 48, 1) !important;
+    color: #fff !important;
+    border-color: rgba(255, 59, 48, 1) !important;
+}
